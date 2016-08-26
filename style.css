@@ -8,7 +8,7 @@ html, body {
 }
 
 .header {
-	padding: 15px 0px;
+	padding: 50px 0px;
 	height: 38px;
 	width: 100%;
 	position: fixed;
@@ -42,12 +42,60 @@ html, body {
 }
 
 .section-one {
-	padding-top: 70px;
+	padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
 }
+
+.tagline {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  }
 
 .tagline-top {
-
+  margin: 0;
+  padding: 5px 0 0 0;
+  position: absolute;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
+
+.tagline-mid {
+  font-size: 155px;
+  font-family: 'Oswald';
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  height: 210px;
+}
+
+.tagline-btm {
+   font-size: 18px;
+   margin: 0;
+   font-family: 'Oswald', Helvetica, sans-serif;
+   font-weight: 500;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   letter-spacing: 1px;
+   padding: 0 20px;
+ }
+
+.tagline-btm::before, .tagline-btm::after {
+  content: "";
+  height: 10px;
+  width: 90px;
+  background: #fff;
+  margin: 8px 0 8px 0;
+}
+
+
 
 .footer {
 	display: flex;
